@@ -1,0 +1,77 @@
+{
+  "network": "Testnet",
+  "chains": {
+    "Sepolia": {
+      "version": "2.0.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0xfe2589D503696026C6e9e5596390809ac11Bb657",
+      "manager": "0x83d539241c6Fe6Cfb445a1f9d5682541A780a362",
+      "token": "0xF6835bddc94AF6403604A167cEe3465ECC632e60",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0xd4c22297C83e68c65028Aa3a40125BbF1F408E0E",
+          "pauser": "0xfe2589D503696026C6e9e5596390809ac11Bb657"
+        }
+      },
+      "limits": {
+        "outbound": "184467440737.095516150000000000",
+        "inbound": {
+          "ArbitrumSepolia": "1000.000000000000000000",
+          "PolygonSepolia": "184467440737.095516150000000000"
+        }
+      },
+      "pauser": "0xfe2589D503696026C6e9e5596390809ac11Bb657",
+      "managerVariant": "standard"
+    },
+    "ArbitrumSepolia": {
+      "version": "2.0.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0xfe2589D503696026C6e9e5596390809ac11Bb657",
+      "manager": "0x005f0Fa03E409b2C15c53DdF2F568CBCE2E4EF3c",
+      "token": "0x735ab671d58B3eE565Dc4d37e25E29a2dEA79A80",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0x96E08c1Ad47f791EE5a422b2cB30f1831588594E",
+          "pauser": "0xfe2589D503696026C6e9e5596390809ac11Bb657"
+        }
+      },
+      "limits": {
+        "outbound": "184467440737.095516150000000000",
+        "inbound": {
+          "Sepolia": "1000.000000000000000000",
+          "PolygonSepolia": "184467440737.095516150000000000"
+        }
+      },
+      "pauser": "0xfe2589D503696026C6e9e5596390809ac11Bb657",
+      "managerVariant": "standard"
+    },
+    "PolygonSepolia": {
+      "version": "2.0.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0xfe2589D503696026C6e9e5596390809ac11Bb657",
+      "manager": "0xf6be7F9C1Ff3acFe8c6453480D2150DfA9831e52",
+      "token": "0xF8Cdfe355d6ba13BB01412Ec424198D8e8af4950",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0xCb4657FE0020d3dB2cc65f0d7BE31B6cE08d2291",
+          "pauser": "0xfe2589D503696026C6e9e5596390809ac11Bb657"
+        }
+      },
+      "limits": {
+        "outbound": "184467440737.095516150000000000",
+        "inbound": {
+          "ArbitrumSepolia": "184467440737.095516150000000000",
+          "Sepolia": "184467440737.095516150000000000"
+        }
+      },
+      "pauser": "0xfe2589D503696026C6e9e5596390809ac11Bb657",
+      "managerVariant": "standard"
+    }
+  }
+}
